@@ -1,0 +1,20 @@
+# محیط گام ۱ — آزمایشگاه هوش مصنوعی (گروه ۳ / تشخیص ارقام دست‌نویس)
+# نصب:  pip install -r requirements.txt
+# بررسی نصب‌ها:  pip list | grep -Ei "numpy|matplotlib|pandas"
+
+# ---- هسته (برای check_env.ipynb و کد بازسازی‌شده کلاس) ----
+numpy>=2.0
+matplotlib>=3.9
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5      # baseline گام ۴ (k-NN / logistic regression)
+
+# ---- نوت‌بوک و اجرای آن ----
+jupyter>=1.0
+notebook>=7.2
+ipykernel>=6.29
+nbclient>=0.10
+
+# ---- آموزش شبکه عصبی (از گام ۴ به بعد) ----
+# torch>=2.4            # CPU:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+# torchvision>=0.19     # دانلود MNIST

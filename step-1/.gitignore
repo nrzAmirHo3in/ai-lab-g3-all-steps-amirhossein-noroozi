@@ -1,0 +1,24 @@
+# محیط پایتون
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# خروجی‌های سنگین یا محلی
+results/*.tmp
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.npy
+
+# فایل‌های ویرایشگر و سیستم
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# رازها
+.env
+*.token
